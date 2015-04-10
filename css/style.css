@@ -1,0 +1,77 @@
+.main {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	width: 50%;
+	min-width: 300px;
+	margin: 2em auto;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Droid Serif", Georgia, serif;
+	font-weight: normal;
+	line-height: normal;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #e2e2e2;
+}
+
+a:focus {
+	outline: none;
+}
+
+footer a {
+	color: blue;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.3s;
+}
+
+footer a:hover {
+	border-bottom-color: currentColor;
+}
+
+.small {
+	font-weight: 200;
+	font-size: 0.85em;
+}
+
+.social-links {
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+li[class^="social-"], li[class^="social-"] a {
+	display: block;
+	width: 64px;
+	height: 64px;
+}
+
+li[class^="social-"] {
+	border-radius: 3px;
+	opacity: 0.75;
+	transition: opacity 0.2s;
+}
+
+li[class^="social-"]:hover {
+	opacity: 1;
+}
+
+.social-github {
+	background: #4183c4;
+}
+
+.social-email {
+	background: #231f20;
+}
+
+.social-twitter {
+	background: #00aced;
+}
