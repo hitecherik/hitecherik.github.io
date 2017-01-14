@@ -27,8 +27,12 @@
 		<footer>
 			<hr>
 			
-			<p class="small">Copyright &copy; Alexander Nielsen 2015. Licenced under <a href="http://creativecommons.org/licenses/by/4.0/">a CC BY 4.0 licence</a>.</p>
+			<p class="small">Copyright &copy; Alexander Nielsen 2015<span id="year"></span>. Licenced under <a href="http://creativecommons.org/licenses/by/4.0/">a CC BY 4.0 licence</a>.</p>
 		</footer>
 	</div>
+	
+	<script>
+		document.getElementById("year").innerHTML = "-" + (new Date()).getFullYear().toString();
+	</script>
 </body>
 </html>
